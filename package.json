@@ -25,7 +25,7 @@
         "typescript": "^5.3.0"
     },
     "lint-staged": {
-        "*.{js,jsx,css,scss,html,json,md}": [
+        "*.{ts,tsx,css,scss,html,json,md}": [
             "prettier --write --config=./.prettierrc --no-editorconfig"
         ]
     }
