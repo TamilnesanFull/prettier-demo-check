@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  husky:
-    specifier: ^9.0.11
-    version: 9.0.11
   million:
     specifier: ^3.0.3
     version: 3.0.3
@@ -31,6 +28,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.2.18
     version: 18.2.19
+  husky:
+    specifier: ^9.0.11
+    version: 9.0.11
   lint-staged:
     specifier: ^15.2.2
     version: 15.2.2
@@ -797,7 +797,7 @@ packages:
     resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==}
     engines: {node: '>=18'}
     hasBin: true
-    dev: false
+    dev: true
 
   /is-binary-path@2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
