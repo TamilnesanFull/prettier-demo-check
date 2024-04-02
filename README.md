@@ -16,7 +16,7 @@ Start the dev server:
 pnpm dev
 ```
 
-Build the app for production:
+Build the app for production
 
 ```bash
 pnpm build
@@ -27,4 +27,3 @@ Preview the production build locally:
 ```bash
 pnpm preview
 ```
-# prettier-demo-check
