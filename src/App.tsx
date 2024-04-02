@@ -14,6 +14,7 @@ const App = () => {
         return <input type='text' value={input} onChange={setValue} />;
         function setValue(e: any) {
             console.log('I am just a demo function ');
+            console.log('I am just a demo function ');
 
             setInput(e.target.value);
         }
